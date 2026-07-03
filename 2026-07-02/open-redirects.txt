@@ -1,0 +1,5 @@
+Open Redirect Testing — 2026-07-02
+
+Parameters tested: url, next, redirect, return, dest, target, redirect_uri, return_to
+Targets: hackerone.com, api.hackerone.com, www.hackerone.com
+Result: No open redirects found. All parameters properly validated.
