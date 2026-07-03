@@ -1,0 +1,11 @@
+ffuf Directory Fuzzing — 2026-07-02
+
+Target: https://hackerone.com
+Wordlist: 30 common paths (admin, api, .env, .git, config, backup, etc.)
+Result: All paths returned 404 or 3xx redirects. No interesting paths found.
+
+Target: https://api.hackerone.com
+Wordlist: 30 common paths
+Result: All paths returned 404 or 3xx redirects. No interesting paths found.
+
+Conclusion: No exposed directories or files on either target.
