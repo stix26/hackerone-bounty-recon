@@ -1,0 +1,13 @@
+CORS Testing — 2026-07-02
+
+Targets tested:
+- https://errors.hackerone.net — no response (DNS flaky)
+- https://a5s.hackerone-ext-content.com — no CORS headers
+- https://b5s.hackerone-ext-content.com — no CORS headers
+- https://hackerone.live — redirects to hackerone.com
+- https://mta-sts.wearehackerone.com — WILDCARD CORS (access-control-allow-origin: *)
+- https://www.hackeronestatus.com — WILDCARD CORS (access-control-allow-origin: *)
+- https://www.hackerone.com — no CORS headers
+- https://api.hackerone.com — no CORS headers
+
+Method: curl with Origin: https://evil.com
