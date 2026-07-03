@@ -1,0 +1,34 @@
+In-scope targets from HackerOne's own program (handle: security, id: 13):
+
+Bounty-eligible (sub:True, bounty:True):
+  - hackerone.com
+  - api.hackerone.com
+  - www.hackerone.com
+  - https://*.hackerone-user-content.com/
+  - errors.hackerone.net
+  - https://*.hackerone-ext-content.com
+  - *.vpn.hackerone.net
+  - app.pullrequest.com
+  - reviewer.pullrequest.com
+  - ctf.hacker101.com
+  - hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com
+  - a5s.hackerone-ext-content.com
+  - b5s.hackerone-ext-content.com
+  - hackerone-ext-content.com
+  - hackathon-photos.hackerone-user-content.com
+  - cover-photos.hackerone-user-content.com
+  - profile-photos.hackerone-user-content.com
+  - hackerone-user-content.com
+  - hackerone.live
+  - www.wearehackerone.com
+  - mta-sts.wearehackerone.com
+
+Not bounty-eligible (sub:False):
+  - support.hackerone.com
+  - www.hackeronestatus.com
+  - go.hacker.one, info.hacker.one, ma.hacker.one
+  - h1.community, www.h1.community
+  - hackerone-swag.com
+
+GitHub in scope (sub:True, bounty:False):
+  - https://github.com/Hacker0x01/react-datepicker
