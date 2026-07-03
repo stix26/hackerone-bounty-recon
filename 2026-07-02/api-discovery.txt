@@ -1,0 +1,5 @@
+API Endpoint Discovery — 2026-07-02
+
+Targets: hackerone.com, api.hackerone.com
+Paths tested: api/v1/users, api/v1/me, graphql, .well-known/security.txt, .well-known/openid-configuration
+Result: All returned 404. No exposed API endpoints found beyond documented ones.
