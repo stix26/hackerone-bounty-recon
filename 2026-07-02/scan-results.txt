@@ -1,0 +1,12 @@
+Nuclei scanning not executed (projectdiscovery httpx not available in environment).
+Manual recon performed with curl probes.
+
+Key observations:
+- hackerone.com: Standard HackerOne login page
+- api.hackerone.com: API endpoint, returns JSON
+- errors.hackerone.net: DNS resolution inconsistent, may be internal
+- hackerone.live: Cloudflare redirect to hackerone.com
+- mta-sts.wearehackerone.com: GitHub Pages 404 page
+- www.hackeronestatus.com: Atlassian Statuspage
+- a5s/b5s.hackerone-ext-content.com: Serve content (200 OK)
+- ctf.hacker101.com: CTF platform accessible
