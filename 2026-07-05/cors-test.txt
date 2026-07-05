@@ -1,0 +1,4 @@
+--- Origin: evil.com @ https://www.hackerone.com ---
+--- Origin: evil.com @ https://api.hackerone.com ---
+--- Origin: evil.com @ https://support.hackerone.com ---
+--- Origin: evil.com @ https://docs.hackerone.com ---
